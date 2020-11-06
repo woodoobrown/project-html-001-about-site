@@ -1,0 +1,239 @@
+
+
+html {
+    background-color: rgb(182, 174, 174);
+    font-family: "century gothic";
+    src: url(fonts/Century Gothic/GOTHIC.TTF);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color: gray;
+}
+
+section {
+    padding: 10px;
+}
+
+#index-main > section:first-child {
+    background-color: black;
+    margin: 10px;
+    text-align: left;
+    color: white;
+}
+
+.behavior-box {
+    display: inline-block;
+    width: 31%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 5em;
+    line-height: 5em;
+    border-radius: 3px;
+}
+
+.image-container {
+    margin-left: 60px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    color: grey;
+}
+
+#spree-works article {
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#spree-works article img {
+    width: 20%;
+    margin: 20px;
+}
+
+#spree-works article .right-content {
+    display: inline-block;
+    width: 70%;
+    margin-bottom: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.gallery-container img {
+    margin: 3px;
+}
+
+.minnesota article {
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.minnesota article img {
+    width: 20%;
+    margin: 20px;
+}
+
+.minnesota article .spree-content {
+    display: inline-block;
+    width: 70%;
+    margin-bottom: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.bio {
+    padding: 10px;
+}
+
+.bio-list {
+    display: inline-block;
+    width: 49%;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.form-block {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.gallery-container {
+    margin-bottom: 20px;
+}
+
+.gallery-container image {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#p01 {
+    box-shadow: 5px 5px 5px black;
+}
+#p02 {
+    box-shadow: 5px 5px 5px black;
+}
+#p03 {
+    box-shadow: 5px 5px 5px black;
+}
+#p04 {
+    box-shadow: 5px 5px 5px black;
+}
+#p05 {
+    box-shadow: 5px 5px 5px black;
+}
+#p06 {
+    box-shadow: 5px 5px 5px black;
+}
+#p07 {
+    box-shadow: 5px 5px 5px black;
+}
+#p08 {
+    box-shadow: 5px 5px 5px black;
+}
+#p09 {
+    box-shadow: 5px 5px 5px black;
+}
+#p10 {
+    box-shadow: 5px 5px 5px black;
+}
+#p11 {
+    box-shadow: 5px 5px 5px black;
+}
+#p12 {
+    box-shadow: 5px 5px 5px black;
+}
+#p13 {
+    box-shadow: 5px 5px 5px black;
+}
+#p14 {
+    box-shadow: 5px 5px 5px black;
+}
+#p15 {
+    box-shadow: 5px 5px 5px black;
+}
+#p16 {
+    box-shadow: 5px 5px 5px black;
+}
+#p17 {
+    box-shadow: 5px 5px 5px black;
+}
+#p18 {
+    box-shadow: 5px 5px 5px black;
+}
+#p19 {
+    box-shadow: 5px 5px 5px black;
+}
+#p20 {
+    box-shadow: 5px 5px 5px black;
+}
+
+@media screen and (max-width: 600px) {
+    .behavior-box {
+        width: 100%;
+    }
+}
